@@ -2,7 +2,7 @@ name: Greet workflow
 run-name: Greeting everyone
 
 on:
-  workflow_dispatch: {greeting.yml}
+  workflow_dispatch: {.github/workflows/greet.yml}
 jobs:
   greet_everyone:
     runs-on: ubuntu-latest
